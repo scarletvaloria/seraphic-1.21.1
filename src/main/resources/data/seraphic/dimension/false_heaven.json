@@ -1,0 +1,11 @@
+{
+  "type": "seraphic:seraphic_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "seraphic:false_heaven",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "seraphic:false_heaven"
+    }
+  }
+}

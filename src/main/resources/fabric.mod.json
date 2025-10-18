@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/seraphic/icon.png",
+	"icon": "assets/seraphic/textures/block/empyreal.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -20,8 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.scarletontv.seraphic.SeraphicDataGenerator"
-		],
-      "client": "net.scarletontv.seraphic.SeraphicDataGenerator"
+          ],
+          "client": [
+            "net.scarletontv.seraphic.SeraphicClient"
+          ]
 	},
 	"mixins": [
 		"seraphic.mixins.json"

@@ -1,0 +1,10 @@
+{
+  "item.seraphic.absolvement": "§bAbsolvement",
+  "tooltip.seraphic.absolvement.tooltip": "§3Their power concentrated into a blade. Use it wisely.",
+  "death.attack.seraphic_damage": "%1$s was claimed by The Authority",
+  "death.attack.seraphic_damage.player": "The Authority used %2$s to claim the soul of %1$s",
+
+  "block.seraphic.empyreal": "Empyreal",
+
+  "itemgroup.seraphic.seraphic_items": "§bSeraphic"
+}
