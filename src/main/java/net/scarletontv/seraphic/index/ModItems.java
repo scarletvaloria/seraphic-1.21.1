@@ -1,16 +1,12 @@
-package net.scarletontv.seraphic.item;
+package net.scarletontv.seraphic.index;
 
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.item.SwordItem;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.scarletontv.seraphic.Seraphic;
-import net.scarletontv.seraphic.index.ModDamageTypes;
+import net.scarletontv.seraphic.item.AbsolvementItem;
 
 public class ModItems {
 

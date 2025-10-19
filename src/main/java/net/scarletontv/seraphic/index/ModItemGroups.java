@@ -1,4 +1,4 @@
-package net.scarletontv.seraphic.item;
+package net.scarletontv.seraphic.index;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -9,7 +9,6 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.scarletontv.seraphic.Seraphic;
 import net.scarletontv.seraphic.block.ModBlocks;
-import net.scarletontv.seraphic.Seraphic;
 
 public class ModItemGroups {
     public static final ItemGroup ABYSSAL_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,

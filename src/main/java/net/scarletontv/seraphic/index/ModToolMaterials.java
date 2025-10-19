@@ -1,4 +1,4 @@
-package net.scarletontv.seraphic.item;
+package net.scarletontv.seraphic.index;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.block.Block;
