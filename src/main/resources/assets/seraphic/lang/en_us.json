@@ -1,8 +1,8 @@
 {
   "item.seraphic.absolvement": "Absolvement",
   "tooltip.seraphic.absolvement.tooltip": "Their power concentrated into a blade. Use it wisely.",
-  "death.attack.seraphic_damage": "%1$s was claimed by The Authority",
-  "death.attack.seraphic_damage.player": "The Authority used %2$s to claim the soul of %1$s",
+  "death.attack.seraph_damage": "%1$s was claimed by The Authority",
+  "death.attack.seraph_damage.player": "The Authority used %2$s to claim the soul of %1$s",
 
   "block.seraphic.empyreal": "Empyreal",
 
