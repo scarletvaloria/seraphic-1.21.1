@@ -8,7 +8,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.scarletontv.seraphic.Seraphic;
 
 public interface ModDamageTypes {
-    RegistryKey<DamageType> SERAPHIC_KILL = of("seraphic_kill");
+    RegistryKey<DamageType> SERAPHIC_KILL = of("seraph_damage");
 
     static DamageSource seraphic_kill(LivingEntity entity) {
         return entity.getDamageSources().create(SERAPHIC_KILL); }

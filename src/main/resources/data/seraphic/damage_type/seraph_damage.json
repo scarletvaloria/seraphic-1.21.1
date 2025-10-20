@@ -1,6 +1,6 @@
 
 {
   "exhaustion": 0.1,
-  "message_id": "seraphic_damage",
+  "message_id": "seraph_damage",
   "scaling": "when_caused_by_living_non_player"
 }

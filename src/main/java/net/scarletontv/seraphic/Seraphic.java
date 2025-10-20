@@ -1,10 +1,8 @@
 package net.scarletontv.seraphic;
 
 import net.fabricmc.api.ModInitializer;
-
 import net.minecraft.util.Identifier;
 import net.scarletontv.seraphic.block.ModBlocks;
-import net.scarletontv.seraphic.index.ModDamageTypes;
 import net.scarletontv.seraphic.index.ModItemGroups;
 import net.scarletontv.seraphic.index.ModItems;
 import org.slf4j.Logger;
