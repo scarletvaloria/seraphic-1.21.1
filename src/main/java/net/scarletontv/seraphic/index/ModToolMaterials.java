@@ -12,7 +12,7 @@ import net.scarletontv.seraphic.block.ModBlocks;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    SERAPHIC(ModBlocks.EMPYREAL, 3, 9.0F, 4.0F, 1, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+    SERAPHIC(ModBlocks.EMPYREAL, 1, 9.0F, 4.5F, 1, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
     private final Block inverseTag;
     private final int itemDurability;

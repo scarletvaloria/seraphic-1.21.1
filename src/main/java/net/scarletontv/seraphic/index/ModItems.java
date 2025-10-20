@@ -11,10 +11,9 @@ import net.scarletontv.seraphic.item.AbsolvementItem;
 import static net.acoyt.acornlib.api.util.ItemUtils.modifyItemNameColor;
 
 public class ModItems {
-
     public static final Item ABSOLVEMENT = registerItem("absolvement",
             new AbsolvementItem(ModToolMaterials.SERAPHIC, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SERAPHIC, 4, -3.1f))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SERAPHIC, 5, -3.0f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Seraphic.MOD_ID, name), item);

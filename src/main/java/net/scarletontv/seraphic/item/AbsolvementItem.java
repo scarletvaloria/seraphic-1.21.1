@@ -64,9 +64,9 @@ public class AbsolvementItem extends SwordItem implements CustomKillSourceItem, 
 
             player.teleport(
                     targetWorld,
-                    spawnPos.getX() + 5000000,
-                    spawnPos.getY() - 10,
-                    spawnPos.getZ() + 5000000,
+                    0,
+                    spawnPos.getY() + 100,
+                    0,
                     player.getYaw(),
                     player.getPitch()
             );

@@ -2,6 +2,7 @@ package net.scarletontv.seraphic.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.SlimeBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -13,10 +14,8 @@ import net.scarletontv.seraphic.Seraphic;
 public class ModBlocks {
 
     public static final Block EMPYREAL = registerBlock("empyreal",
-            new Block(AbstractBlock.Settings.create().strength(-1)
+            new SlimeBlock(AbstractBlock.Settings.create().strength(-1)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
-
-
 
 
     private static Block registerBlock(String name, Block block) {
